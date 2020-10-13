@@ -1,14 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import React, { useContext } from 'react';
-import React from "react";
+import './App.css';
 import ReactDOM from "react-dom";
 
 const NumberContext = React.createContext();
 function App() {
   return (
-    <NumberContext.Provider value={45}>
+    <NumberContext.Provider value={50}>
       <div>
         <Display />
       </div>
