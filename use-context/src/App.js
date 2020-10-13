@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 const NumberContext = React.createContext();
 function App() {
   return (
-    <NumberContext.Provider value={50}>
+    <NumberContext.Provider value={60}>
       <div>
         <Display />
       </div>
